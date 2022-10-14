@@ -8,6 +8,6 @@ def brackets(cur, open, closed, n):
         brackets(cur + ')', open, closed + 1, n)
 
 def gen(n):
-    brackets("", 0,0, n)
+    brackets("", 0, 0, n)
 
 gen(int(input()))
